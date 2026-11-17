@@ -9,11 +9,6 @@ for malformed objects, unresolved imports, callback errors, and native faults.
 It is intended for controlled defensive research, detection engineering, and
 repeatable BOF development.
 
-> [!WARNING]
-> A BOF is arbitrary native code. COFFLoader is not a sandbox. Run only code
-> you trust, use a disposable lab system, and do not expose the executable or
-> a wrapper service to untrusted users.
-
 ## Highlights
 
 - MSVC `__imp_` pointer-slot imports and MinGW bare-symbol dispatch
