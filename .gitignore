@@ -1,0 +1,30 @@
+# Build output
+/dist/
+/*.obj
+/*.pdb
+/*.ilk
+/*.exe
+
+# Generated test fixtures
+/test/*.x64.o
+/test/*.obj
+/test/*.dll
+/test/*.exp
+/test/*.lib
+/test/*.pdb
+/test/.tmp_*
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Editor and OS metadata
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
